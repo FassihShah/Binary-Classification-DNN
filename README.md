@@ -2,6 +2,10 @@
 
 This notebook contains implementation of shallow, 2-layer, and 5-layer deep neural networks for binary image classification using a custom HDF5 dataset derived from the CIFAR-10 dataset.
 
+
+## 📌 Classification Task
+**Cat vs. Non-Cat** – The model is trained to distinguish between images of cats and other objects using labeled image data.
+
 ## 🧪 Potential Classification Scenarios
 The same deep learning setup can be used for other binary classification tasks such as:
 - Dog vs. Non-dog
@@ -13,9 +17,6 @@ The same deep learning setup can be used for other binary classification tasks s
 - Day vs. Night
 - Healthy vs. Unhealthy Plant
 - ✅ Cat vs. Non-Cat (Implemented here)
-
-## 📌 Classification Task
-**Cat vs. Non-Cat** – The model is trained to distinguish between images of cats and other objects using labeled image data.
 
 ## 🗂️ Dataset
 - Format: HDF5 (`.h5`)
